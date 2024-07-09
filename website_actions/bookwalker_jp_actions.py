@@ -39,7 +39,7 @@ class BookwalkerJP(WebsiteActions):
 
     def move_to_page(self, driver, page):
         driver.execute_script(
-            f'NFBR.a6G.Initializer.{self.js}.menu.options.a6l.moveToPage(%d)' % page)
+            f'NFBR.Z4p.Initializer.{self.js}.menu.options.a6l.moveToPage(%d)' % page)
 
     def wait_loading(self, driver):
         WebDriverWait(driver, 600).until_not(lambda x: self.check_is_loading(
